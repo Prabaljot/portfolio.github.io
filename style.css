@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar {
+  background-color: rgb(168, 165, 165);
+  width: 15vw;
+  font-family: "Fira Sans", sans-serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 1.4em;
+  padding: 33px 0px;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 85vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer{
+  background-color: rgb(202,9,128);
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Source Code Pro', monospace;
+  padding: 35px;
+}
+
+.devInfo hr{
+  margin: 10px 0px;
+}
+
+.hello {
+  font-size: 3em;
+}
+
+.name {
+  font-size: 3.5em;
+  font-family: 'Fira Code', monospace;
+}
+
+.about {
+  font-size: 1.9em;
+}
+
+.moreAbout {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.3em;
+
+}
+
+.buttons button{
+
+}
+
+.devPic img{
+  height: 58vh;
+}
